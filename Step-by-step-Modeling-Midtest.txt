@@ -1,0 +1,39 @@
+Answers based on scenario for step by step
+
+1. Model tersebut harus mencantumkan informasi keuangan yang diberikan untuk semua pihak yang potensial.
+
+2. Model ini harus mengasosiasikan setiap proyek yang diusulkan dengan sebuah sel yang bernilai 1 
+jika proyek tersebut disetujui, dan 0 jika tidak disetujui. 
+
+3. Setiap area fungsional ingin agar sebanyak mungkin proyeknya disetujui, namun tentu saja 
+tidak ingin proyeknya tidak disetujui sama sekali. 
+Model ini harus menunjukkan setiap hal berikut: jumlah proyek yang disetujui untuk setiap area fungsi 
+dan apakah setiap area fungsi mendapatkan setidaknya satu proyek yang disetujui.  
+Yang terakhir ini harus ditunjukkan dengan nilai 0/1: 0 jika area fungsi ditutup, 
+1 jika mendapat setidaknya satu proyek yang disetujui. 
+
+4. Model ini harus menemukan jumlah pengeluaran modal untuk semua proyek yang disetujui, 
+baik per tahun maupun total selama tiga tahun.  Model ini harus menjawab kekhawatiran Cordelia dengan 
+menunjukkan apakah total untuk ketiga tahun tersebut melebihi $10 miliar dan, untuk setiap tahun, 
+apakah total pengeluaran tahun tersebut melebihi $4 miliar.  
+Seperti sebelumnya, hal ini harus ditunjukkan dengan nilai 0/1.  
+
+5. Model ini harus menemukan jumlah belanja modal untuk semua proyek yang disetujui, 
+berdasarkan tahun, untuk setiap area fungsional.
+
+6. Menyadari bahwa NPV dalam spreadsheet terlampir mungkin merupakan perkiraan yang optimis, 
+model harus menyertakan input lain, yaitu persentase penurunan yang mungkin terjadi pada setiap NPV awal.  
+Kemudian harus ada kolom NPV baru yang mencerminkan persentase penurunan ini. 
+
+7. Model harus mencantumkan ROI (Pengembalian atas investasi) untuk setiap proyek, 
+yang didefinisikan sebagai NPV sebagai persentase dari total pengeluaran modal untuk proyek tersebut. 
+Setiap ROI harus didasarkan pada NPV yang telah disesuaikan dari arah sebelumnya.  
+ROI untuk setiap proyek adalah sama, terlepas dari apakah Bluejay melaksanakannya pada tingkat 100% atau dalam kemitraan.
+
+8. Model harus menyertakan tabel data satu arah di mana input kolomnya adalah persentase penurunan umum 
+di setiap NPV yang disebutkan sebelumnya, bervariasi dari 0% hingga 30% dengan kenaikan 5%.  
+Keluaran dalam tabel data harus berupa ROI dari proyek yang dijalankan: rata-rata; minimum; dan maksimum.  
+Tentu saja, hasil dalam tabel data ini harus diperbarui secara otomatis jika nilai 0/1 di poin kedua diubah.  
+
+9. Model ini harus disertai dengan diagram garis total belanja modal untuk semua proyek yang disetujui 
+berdasarkan tahun dan diagram garis yang terpisah untuk setiap area fungsional.
